@@ -1,6 +1,6 @@
 {
     "name": "teste-biblioteca-lenon",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "type": "module",
     "description": "Biblioteca de componentes para teste",
     "main": "./build/biblioteca/index.js",
