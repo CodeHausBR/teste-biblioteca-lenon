@@ -1,0 +1,1 @@
+export {ButtonLibTeste} from "./button";

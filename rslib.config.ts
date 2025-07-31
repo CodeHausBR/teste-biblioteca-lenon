@@ -4,7 +4,7 @@ import {defineConfig} from "@rslib/core";
 export default defineConfig({
     source: {
         entry: {
-            index: ["./src/**"],
+            index: ["./src/biblioteca/index.tsx"],
         },
     },
     lib: [
@@ -13,7 +13,7 @@ export default defineConfig({
             dts: true,
             format: "esm",
             output: {
-                distPath: {root: "./build/biblioteca"},
+                distPath: {root: "./build"},
             },
         },
     ],

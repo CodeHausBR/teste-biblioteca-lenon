@@ -2,15 +2,19 @@
     "name": "teste-biblioteca-lenon",
     "version": "0.3.0",
     "type": "module",
+    "description": "Biblioteca de componentes para teste",
+    "main": "./build/biblioteca/index.js",
+    "module": "./build/biblioteca/index.js",
+    "types": "./build/biblioteca/index.d.ts",
     "exports": {
         ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js"
-        }
+            "types": "./build/biblioteca/index.d.ts",
+            "import": "./dist/biblioteca/index.js"
+        },
+        "./package.json": "./package.json"
     },
-    "types": "./dist/index.d.ts",
     "files": [
-        "dist"
+        "build"
     ],
     "scripts": {
         "build": "rslib build",

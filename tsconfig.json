@@ -8,7 +8,10 @@
         "isolatedModules": true,
         "resolveJsonModule": true,
         "moduleResolution": "bundler",
-        "useDefineForClassFields": true
+        "useDefineForClassFields": true,
+        "declaration": true,
+        "outDir": "./build"
     },
-    "include": ["src", "src/biblioteca/**/*", "src/biblioteca/button/**/*", "dev", "**/*.ts", "**/*.tsx", "**/*.d.ts", "types.d.ts"]
+    "include": ["src/**/*", "src/biblioteca/**/*", "src/biblioteca/button/**/*", "dev", "**/*.ts", "**/*.tsx", "**/*.d.ts", "types.d.ts"],
+    "exclude": ["node_modules", "build"]
 }
